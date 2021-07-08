@@ -1,0 +1,10 @@
+/* TEAM */
+
+Your title: Victor Hachard
+Facebook: Victor Hachard
+
+/* SITE */
+
+Last update: 2018/05/18
+Standards: HTML5, CSS3
+Components: Modernizr, codrops (https://tympanus.net/codrops/).

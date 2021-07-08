@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#background {
+  /* The image used */
+  background-image: url("res/pic-1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-container {
+  display: block;
+  height: 350px;
+}
+
+#parallax-container div {
+  position: fixed;
+  top: 0;
+  background-size: cover!important;
+  background-position: center!important;
+  transform: translateY(0px);
+  height: 350px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px)  {
+  #parallax-container {
+    height: 750px;
+  }
+  #parallax-container div {
+    height: 750px;
+  }
+}
+
+#content {
+  position: relative;
+  background-color: white;
+  color: #ffffff;
+}

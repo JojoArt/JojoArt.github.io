@@ -1,0 +1,73 @@
+@charset "utf-8";
+html,body {
+	font-size:15px;
+	line-height:1.5;
+	margin: 0px;
+	height: 100%;
+}
+/* Font */
+h1{font-size:36px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
+h1,h2,h3,h4,h5,h6 {
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight:400;
+	margin:10px 0
+}
+p, a, i {
+	font-family: "Raleway", Arial, sans-serif;
+}
+/* Font */
+.ligne {
+	border-bottom: 1px solid black;
+	align-content: center;
+	margin: auto;
+	padding-bottom: 3px;
+	width: 80vw;
+	max-width: 1500px;
+}
+footer {
+	color: black;
+	text-align: center;
+	padding-bottom: 35px;
+}
+footer ul {
+	list-style:none;
+  display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+}
+footer li {
+	float:left;
+}
+footer .roll {
+	height: 64px;
+	width: 64px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+footer .roll:hover {
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+footer #fa {
+	background-image: url("res/roll/facebook.png");
+}
+footer #ml {
+	background-image: url("res/roll/email.png");
+}
+footer #in {
+	background-image: url("res/roll/instagram.png");
+}
